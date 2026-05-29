@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import { Link } from 'react-scroll';
 import { FiMenu, FiX } from 'react-icons/fi';
-import { navItems } from '../data/portfolio.js';
+import { navItems, profile } from '../data/portfolio.js';
 
 function Navbar() {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -30,10 +30,10 @@ function Navbar() {
           aria-label="Go to hero section"
         >
           <span className="grid h-11 w-11 place-items-center rounded-2xl bg-azure-primary text-lg font-black text-white shadow-glow">
-            RS
+            SS
           </span>
           <span className="hidden text-sm font-extrabold text-slate-900 sm:block">
-            Rajashree Satapathy
+            {profile.name}
           </span>
         </Link>
 

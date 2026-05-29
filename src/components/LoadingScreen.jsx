@@ -15,7 +15,7 @@ function LoadingScreen() {
           transition={{ repeat: Infinity, duration: 1.1, ease: 'linear' }}
         />
         <div className="rounded-2xl bg-white px-4 py-3 text-2xl font-black text-azure-primary shadow-glow">
-          RS
+          SS
         </div>
       </div>
     </motion.div>

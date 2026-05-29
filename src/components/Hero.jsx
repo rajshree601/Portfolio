@@ -22,7 +22,12 @@ function StatCard({ stat }) {
 }
 
 function Hero() {
-  const typed = useTypingEffect(['AWS Serverless', 'Azure Cloud', 'Java APIs', 'BDD Automation']);
+  const typed = useTypingEffect([
+    'Veeva Education Services',
+    'Pega University Programs',
+    'Talent Acceleration',
+    'Curriculum Strategy'
+  ]);
 
   return (
     <section id="hero" className="relative isolate min-h-screen overflow-hidden pt-28">
@@ -46,7 +51,7 @@ function Hero() {
         >
           <div className="mb-6 inline-flex items-center gap-3 rounded-full border border-sky-100 bg-white/75 px-4 py-2 text-sm font-bold text-azure-primary shadow-sm backdrop-blur">
             <span className="h-2.5 w-2.5 rounded-full bg-emerald-500 shadow-[0_0_0_6px_rgba(16,185,129,0.12)]" />
-            Open to Software, Cloud and QA roles
+            Open to education services, enablement and ecosystem leadership
           </div>
 
           <h1 className="max-w-5xl text-4xl font-black tracking-tight text-slate-950 sm:text-6xl lg:text-7xl">
@@ -58,17 +63,17 @@ function Hero() {
           <p className="mt-6 max-w-2xl text-lg leading-8 text-slate-600">{profile.tagline}</p>
 
           <div className="mt-6 min-h-10 text-lg font-extrabold text-slate-900 sm:text-xl">
-            Specialized in <span className="text-azure-primary">{typed}</span>
+            Leading <span className="text-azure-primary">{typed}</span>
             <span className="ml-1 inline-block h-6 w-0.5 translate-y-1 bg-azure-secondary" />
           </div>
 
           <div className="mt-9 flex flex-col gap-3 sm:flex-row">
-            <a href="/Rajashree_Satapathy_Resume.md" download className="btn-primary">
+            <a href="/Sarada_Prasanna_Satapathy_Profile.pdf" download className="btn-primary">
               <FiDownload aria-hidden="true" />
-              Download Resume
+              Download Profile
             </a>
             <Link to="projects" smooth duration={550} offset={-92} className="btn-secondary">
-              View Projects
+              View Impact
               <FiArrowRight aria-hidden="true" />
             </Link>
             <a href={`mailto:${profile.email}`} className="btn-ghost">
@@ -87,13 +92,13 @@ function Hero() {
           <div className="absolute -inset-8 rounded-[3rem] bg-gradient-to-br from-sky-200/70 via-white/50 to-cyan-100/70 blur-2xl" />
           <div className="relative overflow-hidden rounded-[2.5rem] border border-white bg-white/70 p-6 shadow-azure backdrop-blur-xl">
             <img
-              src="/profile-photo.jpg"
-              alt="Rajashree Satapathy"
+              src="/executive-profile.svg"
+              alt="Executive profile illustration for Sarada Prasanna Satapathy"
               className="mx-auto aspect-square w-full max-w-sm rounded-[2rem] object-cover object-center"
             />
             <div className="mt-6 rounded-3xl bg-slate-950 p-5 text-white">
               <p className="text-sm font-semibold text-sky-200">Current focus</p>
-              <p className="mt-2 text-2xl font-black">Cloud-native apps + reliable test automation</p>
+              <p className="mt-2 text-2xl font-black">Scalable education services + workforce excellence</p>
             </div>
           </div>
         </motion.div>

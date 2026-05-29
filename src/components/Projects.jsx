@@ -8,9 +8,9 @@ function Projects() {
     <section id="projects" className="section-padding">
       <div className="mx-auto max-w-7xl px-5 sm:px-8 lg:px-10">
         <SectionHeading
-          eyebrow="Featured Projects"
-          title="Project work that maps to production engineering"
-          description="Each project is framed around system design, implementation value and recruiter-readable outcomes."
+          eyebrow="Leadership Impact"
+          title="Programs that scaled learning ecosystems"
+          description="Career-defining initiatives across Veeva, Pegasystems and SQL Star International."
         />
 
         <div className="grid gap-6 lg:grid-cols-2">

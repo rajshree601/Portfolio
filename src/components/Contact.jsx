@@ -1,14 +1,14 @@
 import { motion } from 'framer-motion';
-import { FaGithub, FaLinkedin } from 'react-icons/fa';
-import { FiMail, FiPhone } from 'react-icons/fi';
+import { FaLinkedin } from 'react-icons/fa';
+import { FiExternalLink, FiMail, FiMapPin } from 'react-icons/fi';
 import SectionHeading from './SectionHeading.jsx';
 import { profile } from '../data/portfolio.js';
 
 const contacts = [
   { label: 'Email', value: profile.email, href: `mailto:${profile.email}`, icon: FiMail },
-  { label: 'Phone', value: profile.phone, href: `tel:${profile.phone.replace(/\s/g, '')}`, icon: FiPhone },
-  { label: 'LinkedIn', value: 'rajashree-satapathy', href: profile.linkedin, icon: FaLinkedin },
-  { label: 'GitHub', value: 'rajshree601', href: profile.github, icon: FaGithub }
+  { label: 'LinkedIn', value: 'saradapsatapathy', href: profile.linkedin, icon: FaLinkedin },
+  { label: 'Veeva Education', value: 'education.veeva.com', href: profile.company, icon: FiExternalLink },
+  { label: 'Location', value: profile.location, href: profile.linkedin, icon: FiMapPin }
 ];
 
 function Contact() {
@@ -17,8 +17,8 @@ function Contact() {
       <div className="mx-auto max-w-7xl px-5 sm:px-8 lg:px-10">
         <SectionHeading
           eyebrow="Contact"
-          title="Ready for software, cloud and QA automation opportunities"
-          description="Connect for internships, entry-level engineering roles, cloud projects, API automation work and collaborative product teams."
+          title="Ready to strengthen education services and workforce capability"
+          description="Connect for learning ecosystem strategy, customer enablement, partner training, university programs and talent acceleration initiatives."
         />
 
         <motion.div
@@ -32,11 +32,11 @@ function Contact() {
             <div className="bg-slate-950 p-8 text-white sm:p-10">
               <p className="text-sm font-bold uppercase tracking-[0.26em] text-sky-200">Professional CTA</p>
               <h3 className="mt-5 text-3xl font-black tracking-tight sm:text-4xl">
-                Let us build reliable, cloud-ready software.
+                Let us build scalable learning ecosystems.
               </h3>
               <p className="mt-5 leading-8 text-slate-300">
-                Rajashree brings hands-on AWS architecture, Java API automation and a strong learning
-                mindset for modern engineering teams.
+                Sarada brings executive experience across Veeva, Pegasystems and SQL Star, with a
+                proven record of enabling global professionals, partners, customers and universities.
               </p>
               <a href={`mailto:${profile.email}`} className="mt-8 inline-flex rounded-full bg-white px-6 py-3 font-black text-slate-950 transition hover:-translate-y-0.5 hover:bg-sky-100">
                 Start a conversation

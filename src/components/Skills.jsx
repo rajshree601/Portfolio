@@ -8,8 +8,8 @@ function Skills() {
       <div className="mx-auto max-w-7xl px-5 sm:px-8 lg:px-10">
         <SectionHeading
           eyebrow="Skills"
-          title="A balanced stack across code, cloud and quality"
-          description="Organized around the skills hiring teams look for in scalable application and automation roles."
+          title="Capabilities across education, platforms and ecosystem growth"
+          description="Organized around the leadership areas needed to scale technical learning across customers, partners, universities and internal teams."
         />
 
         <div className="grid gap-6 md:grid-cols-2 xl:grid-cols-4">

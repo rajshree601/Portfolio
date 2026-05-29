@@ -9,10 +9,10 @@ function Certifications() {
       <div className="mx-auto max-w-7xl px-5 sm:px-8 lg:px-10">
         <SectionHeading
           eyebrow="Certifications"
-          title="Validated learning across algorithms, cloud and service platforms"
+          title="Platform, architecture and emerging technology credentials"
         />
 
-        <div className="grid gap-4 md:grid-cols-2 xl:grid-cols-5">
+        <div className="grid gap-4 md:grid-cols-2 xl:grid-cols-3">
           {certifications.map((certification, index) => (
             <motion.article
               key={certification}

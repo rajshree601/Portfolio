@@ -1,6 +1,6 @@
-# Rajashree Satapathy Portfolio
+# Sarada Prasanna Satapathy Portfolio
 
-Production-ready React 18 portfolio website built with Vite, Tailwind CSS, Framer Motion, React Icons, and React Scroll. The project is configured for Azure Static Web Apps deployment with GitHub Actions CI/CD.
+Production-ready React 18 executive portfolio website built with Vite, Tailwind CSS, Framer Motion, React Icons, and React Scroll. The project is configured for Azure Static Web Apps deployment with GitHub Actions CI/CD.
 
 ## Run Locally
 
@@ -31,7 +31,7 @@ Set the repository secret `AZURE_STATIC_WEB_APPS_API_TOKEN`, then push to `main`
 .
 ├── .github/workflows/azure-static-web-apps.yml
 ├── public
-│   ├── Rajashree_Satapathy_Resume.md
+│   ├── Sarada_Prasanna_Satapathy_Profile.pdf
 │   ├── favicon.svg
 │   └── og-image.svg
 ├── src

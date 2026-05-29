@@ -1,11 +1,11 @@
 import { motion } from 'framer-motion';
-import { FiCheckCircle, FiCpu, FiShield, FiZap } from 'react-icons/fi';
+import { FiCheckCircle, FiGlobe, FiTarget, FiUsers } from 'react-icons/fi';
 import SectionHeading from './SectionHeading.jsx';
 
 const focusAreas = [
-  { icon: FiCpu, title: 'Software Engineering', text: 'Component-driven thinking, clean APIs and practical full-stack delivery.' },
-  { icon: FiZap, title: 'Cloud Architecture', text: 'AWS serverless systems, Azure-ready deployment, cost-aware scaling.' },
-  { icon: FiShield, title: 'QA Automation', text: 'BDD, REST Assured, Postman workflows and reliable validation suites.' }
+  { icon: FiUsers, title: 'Workforce Enablement', text: 'Global training programs that convert platform knowledge into job-ready capability.' },
+  { icon: FiTarget, title: 'Curriculum Strategy', text: 'Version-aware technical curricula, certification paths and educator enablement systems.' },
+  { icon: FiGlobe, title: 'Ecosystem Growth', text: 'Customer, partner and university collaboration across life sciences and enterprise platforms.' }
 ];
 
 function About() {
@@ -14,8 +14,8 @@ function About() {
       <div className="mx-auto max-w-7xl px-5 sm:px-8 lg:px-10">
         <SectionHeading
           eyebrow="About"
-          title="Engineering foundation with cloud-first ambition"
-          description="A concise profile built for recruiters and engineering teams evaluating real-world readiness."
+          title="Education services leader with enterprise platform depth"
+          description="A senior profile built for leadership teams evaluating enablement, partner growth and workforce transformation impact."
         />
 
         <div className="grid gap-8 lg:grid-cols-[0.95fr_1.05fr]">
@@ -27,17 +27,17 @@ function About() {
             transition={{ duration: 0.6 }}
           >
             <p className="text-lg leading-9 text-slate-700">
-              Computer Science Engineering Honors student at KL University with strong interests in
-              Cloud Computing, Software Development, QA Automation, and scalable application design.
+              With 29+ years of experience in the IT industry, Sarada Prasanna Satapathy brings deep
+              expertise in competency building, curriculum innovation and education ecosystem enablement.
             </p>
             <p className="mt-5 text-lg leading-9 text-slate-700">
-              Experienced in AWS serverless architectures, API automation frameworks, and full-stack
-              development. Passionate about building real-world solutions and continuously learning
-              emerging technologies.
+              As Practice Director of Education Services at Veeva Systems, he focuses on expanding
+              education services across India and evangelizing learning ecosystems for the life sciences
+              community. His work spans strategic collaboration with academia, partners and customers.
             </p>
 
             <div className="mt-8 grid gap-4">
-              {['Recruiter-ready project storytelling', 'Microsoft Azure inspired presentation', 'Cloud, code and testing credibility'].map((item) => (
+              {['20,000+ professionals empowered', '70% placement rate for certified engineers', '65% female representation achieved in team'].map((item) => (
                 <div key={item} className="flex items-center gap-3 text-sm font-bold text-slate-700">
                   <FiCheckCircle className="text-azure-primary" size={20} aria-hidden="true" />
                   {item}

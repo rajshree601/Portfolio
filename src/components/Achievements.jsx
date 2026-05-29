@@ -3,15 +3,15 @@ import { FiFlag, FiStar, FiTrendingUp } from 'react-icons/fi';
 import SectionHeading from './SectionHeading.jsx';
 import { achievements } from '../data/portfolio.js';
 
-const icons = [FiTrendingUp, FiFlag, FiStar, FiStar];
+const icons = [FiTrendingUp, FiFlag, FiStar, FiStar, FiTrendingUp];
 
 function Achievements() {
   return (
     <section id="achievements" className="section-padding">
       <div className="mx-auto max-w-7xl px-5 sm:px-8 lg:px-10">
         <SectionHeading
-          eyebrow="Achievements"
-          title="Signals of curiosity, competition and delivery"
+          eyebrow="Awards"
+          title="Recognition for enablement leadership and impact"
         />
 
         <div className="grid gap-5 md:grid-cols-2">

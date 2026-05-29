@@ -8,9 +8,9 @@ function CodingProfiles() {
     <section id="profiles" className="section-padding">
       <div className="mx-auto max-w-7xl px-5 sm:px-8 lg:px-10">
         <SectionHeading
-          eyebrow="Coding Profiles"
-          title="Public proof of practice"
-          description="Fast access to code, problem solving, professional credentials and engineering presence."
+          eyebrow="Professional Links"
+          title="Executive presence and learning ecosystem"
+          description="Fast access to Sarada's professional profile and Veeva education services."
         />
 
         <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
