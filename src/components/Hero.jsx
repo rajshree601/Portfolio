@@ -4,7 +4,6 @@ import { FiArrowRight, FiDownload, FiMail } from 'react-icons/fi';
 import { profile, stats } from '../data/portfolio.js';
 import { useTypingEffect } from '../hooks/useTypingEffect.js';
 import { useCountUp } from '../hooks/useCountUp.js';
-import portrait from '../assets/profile-portrait.svg';
 
 function StatCard({ stat }) {
   const value = useCountUp(stat.value, 1500, stat.decimals || 0);
@@ -88,9 +87,9 @@ function Hero() {
           <div className="absolute -inset-8 rounded-[3rem] bg-gradient-to-br from-sky-200/70 via-white/50 to-cyan-100/70 blur-2xl" />
           <div className="relative overflow-hidden rounded-[2.5rem] border border-white bg-white/70 p-6 shadow-azure backdrop-blur-xl">
             <img
-              src={portrait}
-              alt="Professional illustrated portrait of Rajashree Satapathy"
-              className="mx-auto aspect-square w-full max-w-sm rounded-[2rem] object-cover"
+              src="/profile-photo.jpg"
+              alt="Rajashree Satapathy"
+              className="mx-auto aspect-square w-full max-w-sm rounded-[2rem] object-cover object-center"
             />
             <div className="mt-6 rounded-3xl bg-slate-950 p-5 text-white">
               <p className="text-sm font-semibold text-sky-200">Current focus</p>
