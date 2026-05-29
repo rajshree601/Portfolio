@@ -1,0 +1,17 @@
+{
+  "name": "Rajashree Satapathy Portfolio",
+  "short_name": "Rajashree",
+  "description": "Software Developer, Cloud Enthusiast and QA Automation Engineer portfolio.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#F8FAFC",
+  "theme_color": "#0078D4",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "64x64",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}
